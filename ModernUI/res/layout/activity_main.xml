@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#000000"
+	android:orientation="vertical">
+	
+	<RelativeLayout
+	    android:id="@+id/color_layout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight=".9">
+	</RelativeLayout>
+	
+	<SeekBar 
+	    android:id="@+id/color_bar" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:max="100"
+        android:progress="0" />
+
+</LinearLayout>
